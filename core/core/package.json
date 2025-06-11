@@ -1,6 +1,6 @@
 {
   "name": "@test1-cli/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "coderhch <hechunhuidylan@163.com>",
   "homepage": "",
@@ -23,6 +23,6 @@
     "test": "node ./__tests__/@test1-cli/core.test.js"
   },
   "dependencies": {
-    "@test1-cli/utils": "^1.0.1"
+    "@test1-cli/utils": "^1.0.2"
   }
 }
