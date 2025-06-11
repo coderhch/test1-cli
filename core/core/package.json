@@ -10,6 +10,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "bin": {
+    "test1-cli": "bin/index.js"
+  },
   "files": [
     "lib"
   ],
@@ -18,5 +21,8 @@
   },
   "scripts": {
     "test": "node ./__tests__/@test1-cli/core.test.js"
+  },
+  "dependencies": {
+    "@test1-cli/utils": "^1.0.1"
   }
 }
